@@ -54,4 +54,4 @@ Follow these steps to run the project:
 
 |                                                          |                                                      |
 |----------------------------------------------------------|:----------------------------------------------------:|
-| <img src="sample/Demo.gif" width="50%" >     | <img src="sample/Demo pc.gif" width="50%" > |  
+| <img src="sample/Demo.gif" width="100%" >     | <img src="sample/Demo pc.gif" width="100%" > |  
