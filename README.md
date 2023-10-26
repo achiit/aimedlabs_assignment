@@ -25,7 +25,7 @@ To achieve this responsive design, the project uses the MVVM (Model-View-ViewMod
 
 - **Model**: The data model is managed by the `CardViewModel` class, which holds the proportions and sizes for Card 1 and Card 2.
 
-- **View**: There are two card views, `Card1` and `Card2`, each responsible for rendering their respective cards. These views use Flutter's `LayoutBuilder` to calculate and adjust card dimensions based on screen size and the values provided by the ViewModel.
+- **View**: There are two card views, `Card1` and `Card2`, each responsible for rendering their respective cards. These views explicitly calculate and adjust card dimensions based on screen size and the values provided by the ViewModel.  (**NO MEDIAQUERY IS USED IN CODE JUST TO CALCULATE ITS THERE BUT NOT USED ANYWHERE**)
 
 - **ViewModel**: The `CardViewModel` class extends `ChangeNotifier` to handle state management. It provides methods to update card proportions, which trigger notifications to update the views.
 
