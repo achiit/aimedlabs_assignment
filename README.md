@@ -37,3 +37,21 @@ Follow these steps to run the project:
 
    ```shell
    git clone https://github.com/your-username/your-repo.git
+
+2. Install the required dependencies:
+
+   ```shell
+   flutter pub get
+
+3. Run the Flutter app:
+
+   ```shell
+   flutter run
+
+
+**Live Demo**: [View Demo](https://responsive-achiit.vercel.app/)
+
+
+|                                                          |                                                      |
+|----------------------------------------------------------|:----------------------------------------------------:|
+| <img src="sample/Demo.gif" width="50%" >     | <img src="sample/Demo pc.gif" width="50%" > |  
