@@ -52,6 +52,7 @@ Follow these steps to run the project:
 **Live Demo**: [View Demo](https://responsive-achiit.vercel.app/)
 
 
-|                                                          |                                                      |
-|----------------------------------------------------------|:----------------------------------------------------:|
-| <img src="sample/Demo.gif" width="100%" >     | <img src="sample/Demo pc.gif" width="100%" > |  
+|                                                          |                                                      
+|----------------------------------------------------------| 
+| <img src="sample/Demo.gif" width="100%" >                |
+| <img src="sample/Demo pc.gif" width="100%" >             |   
