@@ -17,7 +17,7 @@ class Card2 extends StatelessWidget {
     return Stack(
       children: [
         Container(
-          height: screenHeight * 0.5,
+          height: 200,
           padding: const EdgeInsets.all(35.0),
           child: Container(
             padding: const EdgeInsets.all(18.0),
@@ -25,7 +25,7 @@ class Card2 extends StatelessWidget {
               color: Color(0xffd18585),
               borderRadius: BorderRadius.circular(10.0),
             ),
-            height: screenHeight * 0.4,
+            height: 300,
             width: cardWidth, // Adjust the ratio as needed
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
@@ -35,8 +35,7 @@ class Card2 extends StatelessWidget {
                     color: Color(0xffa8d8ad),
                     borderRadius: BorderRadius.circular(10.0),
                   ),
-                  height:
-                      cardHeight * 0.3, // Set a fixed height for the green area
+                  height: 50, // Set a fixed height for the green area
                   width: greenAreaWidth,
                 ),
               ],
@@ -53,7 +52,7 @@ class Card2 extends StatelessWidget {
                 color: Color(0xffc4c4c4),
                 borderRadius: BorderRadius.circular(10.0),
               ),
-              height: greyBoxHeight,
+              height: 50,
               width: greenAreaWidth * 0.5, // Adjust the ratio as needed
               // Maintain the container size
             ),
