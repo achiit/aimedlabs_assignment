@@ -5,7 +5,7 @@ import 'package:provider/provider.dart';
 class Card1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-     final viewModel = Provider.of<CardViewModel>(context);
+    final viewModel = Provider.of<CardViewModel>(context);
     final screenWidth = MediaQuery.of(context).size.width;
     final screenHeight = MediaQuery.of(context).size.height;
 
@@ -19,7 +19,7 @@ class Card1 extends StatelessWidget {
           color: Color(0xffd18585),
           borderRadius: BorderRadius.circular(10.0),
         ),
-        height: screenHeight * 0.4,
+        height: 200,
         //height: cardHeight * 0.2, // Adjust the ratio as needed
         width: greenAreaWidth * 0.5, // Adjust the ratio as needed
         child: Padding(
@@ -45,7 +45,7 @@ class Card1 extends StatelessWidget {
                     color: Color(0xffa8d8ad),
                     borderRadius: BorderRadius.circular(10.0),
                   ),
-
+                  height: 50,
                   //height: cardHeight * 0.3, // Set a fixed height for the green area
                   width: greenAreaWidth,
                 ),
